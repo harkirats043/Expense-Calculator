@@ -2,11 +2,11 @@ import "./ExpenseItem.css"
 
 export default function ExpenseItem() {
     return (
-        <div>
-            <div>Date</div>
-            <div>
+        <div className="expense-item">
+            <div>Oct-9-2023</div>
+            <div className="expense-item__description">
                 <h2>Car Insurance</h2>
-                <div>$294.67</div>
+                <div className="expense-item__price">$294.67</div>
             </div>
         </div>
     )
