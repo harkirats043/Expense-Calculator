@@ -1,10 +1,10 @@
 import './App.css';
-import ExpenseItems from './components/ExpenseItem';
+import ExpenseItem from './components/ExpenseItem';
 
 export default function App() {
   return (
     <div className="App">
-      <h2><ExpenseItems /></h2>
+      <h2><ExpenseItem /></h2>
     
     </div>
   );

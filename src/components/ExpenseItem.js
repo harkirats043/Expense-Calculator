@@ -1,5 +1,13 @@
-export default function ExpenseItems() {
+import "./ExpenseItem.css"
+
+export default function ExpenseItem() {
     return (
-        <h2>Expense Item</h2>
+        <div>
+            <div>Date</div>
+            <div>
+                <h2>Car Insurance</h2>
+                <div>$294.67</div>
+            </div>
+        </div>
     )
 }
