@@ -27,19 +27,16 @@ export default function App() {
     <div className="App">
       <h2>Let's get Started
         <ExpenseItem
-         title ={expenses[0].title}
-         amount={expenses[0].amount}
-         date={expenses[0].date}
+         expense={expenses[0]}
          />
         <ExpenseItem
-         title={expenses[1].title}
-         amount={expenses[1].amount}
-         date={expenses[1].date}
+        expense={expenses[1]}
          />
         <ExpenseItem
-         title={expenses[2].title}
-         amount={expenses[2].amount}
-         date={expenses[2].date}
+        expense={expenses[2]}
+         />
+        <ExpenseItem
+         expense={expenses[3]}
          />
          </h2>
     </div>
