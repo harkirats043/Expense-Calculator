@@ -25,7 +25,7 @@ export default function App() {
   ];
   return (
     <div className="App">
-      <h2>Let's get Started
+      <h2>My Expense Items
         <ExpenseItem
          expense={expenses[0]}
          />
